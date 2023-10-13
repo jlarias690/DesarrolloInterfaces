@@ -23,6 +23,7 @@ He elegido este tema debido a mi gusto por la lectura y debido a que soy un usua
 En el diseño de la web para móvil tendríamos el logo junto con el nombre de la empresa en la cabecera. Acto seguido tenemos el cuerpo de la pagina web en el cual tenemos un slider con los libros más vendidos y las nuevas adquisiciones. Por último, tendríamos la zona de navegación dónde tendríamos: menú hamburgués, el buscador, el carrito y el inicio de sesión.
 
 ![wireframeMOBILE](.\img\mobileWireframe.png)
+![wireframeMOBILE](.\img\LoginMobile.png)
 
 ## DISEÑO WIREFRAME PC
 
@@ -40,4 +41,6 @@ El logo a sido redimensionado de una imagen de 3000x3000px a una imagen de 100px
 
 ![Logo](.\img\logo.jpg)
 
-![Esquema](.\img\Esquema Web.jpg)
+## Esquema Web
+
+![Esquema](.\img\EsquemaWeb.jpg)
