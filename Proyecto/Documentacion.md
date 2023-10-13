@@ -39,3 +39,5 @@ El logo a sido redimensionado de una imagen de 3000x3000px a una imagen de 100px
 ## LOGO
 
 ![Logo](.\img\logo.jpg)
+
+![Esquema](.\img\Esquema Web.jpg)
