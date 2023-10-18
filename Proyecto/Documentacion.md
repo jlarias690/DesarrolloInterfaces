@@ -18,18 +18,37 @@ La principal propuesta diferenciadora que da nuestra pagina web es que tiene una
 
 He elegido este tema debido a mi gusto por la lectura y debido a que soy un usuario de las librerías online y creo que puedo mejorar la propia interfaz de usuario.
 
-## DISEÑO WIREFRAME MOVIL
+## ESQUEMA WEB
 
-En el diseño de la web para móvil tendríamos el logo junto con el nombre de la empresa en la cabecera. Acto seguido tenemos el cuerpo de la pagina web en el cual tenemos un slider con los libros más vendidos y las nuevas adquisiciones. Por último, tendríamos la zona de navegación dónde tendríamos: menú hamburgués, el buscador, el carrito y el inicio de sesión.
-
-![wireframeMOBILE](.\img\mobileWireframe.png)
-![wireframeMOBILE](.\img\LoginMobile.png)
+![Esquema](.\img\EsquemaWeb.jpg)
 
 ## DISEÑO WIREFRAME PC
 
 En el diseño de la web para ordenadores el logo al igual que en el formato de móvil estaría en la parte superior izquierda. En la parte central de la cabecera estaría el buscador junto con los menús desplegable el último elemento en la cabecera estaría justo a la derecha que serían el inicio de sesión y el carrito. En el comienzo del cuerpo habría un video en el cual se mostraría algo relacionado con la temática de la web, un slider que tendrían la mismas características que en el formato móvil y por último en el cuerpo tendríamos un newsletter. Por ultimo tenemos el footer o pie en el cual estaría la información legal y otros links de interes.
 
-![wireframePC](.\img\wireframe.png)
+### Pagina principal.
+
+En la parte superior
+
+![wireframePC](.\img\wireframe640px.jpg)
+
+### Pagina destacados y biblioteca.
+
+![Biblioteca](.\img\Destacados640px.jpg)
+
+### Login de la pagina web.
+
+![LoginPC](.\img\LoginPC_640px.jpg)
+
+## DISEÑO WIREFRAME MOVIL
+
+En el diseño de la web para móvil tendríamos el logo junto con el nombre de la empresa en la cabecera. Acto seguido tenemos el cuerpo de la pagina web en el cual tenemos un slider con los libros más vendidos y las nuevas adquisiciones. Por último, tendríamos la zona de navegación dónde tendríamos: menú hamburgués, el buscador, el carrito y el inicio de sesión.
+
+![wireframeMOBILE](.\img\mobileWireframe.png)
+
+![(DestacadoMobile](.\img\DestacadoMobile.png)
+
+![wireframeMOBILE](.\img\LoginMobile.png)
 
 ## LOGO REDIMENSIONADO
 
@@ -41,6 +60,18 @@ El logo a sido redimensionado de una imagen de 3000x3000px a una imagen de 100px
 
 ![Logo](.\img\logo.jpg)
 
-## Esquema Web
+## COLORES
 
-![Esquema](.\img\EsquemaWeb.jpg)
+Los colores que se van ha usar serian: el color blanco como background general, el negro como color de letras y el rojo como color para destacar puntos importantes.
+
+Color rojo : #AA3939
+
+![Rojo](.\img\ColorRojo.png)
+
+Color blanco :#FFFFFF
+
+![blanco](.\img\ColorBlanco.png)
+
+Color negro : #000000
+
+![Negro](.\img\ColorNegro.png)
