@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "tipoWeb";
+  src: url("font/PixelifySans-Regular.woff"),
+    url("font/PixelifySans-Regular.ttf");
+}
+
+.font1 {
+  font-size: 40px;
+  font-family: "tipoWeb" !important;
+}
+
+.font2 {
+  font-size: 40px;
+  font-family: "Source Sans 3", Verdana;
+}
+
+.font3 {
+  font-size: 40px;
+  font-family: Helvetica;
+}

@@ -44,9 +44,15 @@ En la parte superior
 
 En el diseño de la web para móvil tendríamos el logo junto con el nombre de la empresa en la cabecera. Acto seguido tenemos el cuerpo de la pagina web en el cual tenemos un slider con los libros más vendidos y las nuevas adquisiciones. Por último, tendríamos la zona de navegación dónde tendríamos: menú hamburgués, el buscador, el carrito y el inicio de sesión.
 
+Pagina principal.
+
 ![wireframeMOBILE](.\img\mobileWireframe.png)
 
+Destacados y biblioteca.
+
 ![(DestacadoMobile](.\img\DestacadoMobile.png)
+
+Inicio de sesion.
 
 ![wireframeMOBILE](.\img\LoginMobile.png)
 
@@ -62,7 +68,7 @@ El logo a sido redimensionado de una imagen de 3000x3000px a una imagen de 100px
 
 ## COLORES
 
-Los colores que se van ha usar serian: el color blanco como background general, el negro como color de letras y el rojo como color para destacar puntos importantes.
+Los colores que se van ha usar serian: el color blanco como background general, el negro como color de letras y el rojo como color para destacar puntos importantes o elementos importantes.
 
 Color rojo : #AA3939
 
