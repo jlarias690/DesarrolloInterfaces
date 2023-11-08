@@ -1,0 +1,21 @@
+@media screen {
+  body {
+    padding: 2em;
+    background-color: aquamarine;
+  }
+  p {
+    color: blue;
+  }
+  .contenedor {
+    padding: 2%;
+    background-color: red;
+  }
+}
+/*@media print{} se realiza para poder maquetar para maquetar la impresion */
+/*@media screen{} estar de nomal*/
+@media print, screen {
+  h2,
+  p {
+    display: none;
+  }
+}

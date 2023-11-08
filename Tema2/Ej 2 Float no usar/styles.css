@@ -1,11 +1,26 @@
-.centro,
-.izquierda,
-.derecha {
-  width: 33%;
-  float: left;
-  text-align: center;
+@media screen {
+  body {
+    background-color: #f6f6f6;
+  }
+  .centro,
+  .izquierda,
+  .derecha {
+    width: 33%;
+    float: left;
+    text-align: center;
+  }
+
+  .centro1 {
+    text-align: center;
+  }
 }
 
-.centro1 {
-  text-align: center;
+@media print {
+  body {
+    background-color: #ffffff;
+    float: left;
+  }
+  .icono {
+    display: none !important;
+  }
 }
