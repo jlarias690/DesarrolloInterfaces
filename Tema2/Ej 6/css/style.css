@@ -1,0 +1,16 @@
+.flex_item {
+  width: 10%;
+}
+
+.fas,
+.fa-book {
+  color: green;
+}
+
+.flex_contenedor > .flex_item {
+  align-items: center;
+}
+h1,
+.flex_contenedor > .flex_item {
+  text-transform: uppercase;
+}
