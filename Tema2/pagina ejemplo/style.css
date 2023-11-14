@@ -1,0 +1,156 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Maven Pro", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  background-color: #dfe3ee;
+}
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #dfe3ee;
+  font-size: small;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+nav ul li {
+  margin: 0.5%;
+}
+.topBar1 {
+  width: 70%;
+}
+.topBar2 {
+  width: 30%;
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 0.4%;
+}
+.buscador {
+  display: flex;
+  padding-bottom: 1%;
+}
+.logo {
+  width: 3%;
+  height: 4%;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.form1 {
+  margin-left: 10%;
+  align-self: center;
+}
+input {
+  border-style: none;
+  background-color: #dfe3ee;
+}
+.product {
+  border-bottom-color: black;
+  border-bottom-style: ridge;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  color: #c2c7d4;
+}
+.sec1 {
+  background-color: #dfe3ee;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.entrar {
+  font-size: medium;
+  background-color: #dfe3ee;
+  border-radius: 10%;
+  width: fit-content;
+  font-size: 1.2em;
+  padding: 5px 50px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+.flechitas {
+  font-size: 40pt;
+  color: white;
+  position: absolute;
+  top: 50%;
+}
+.flechitas.fa-chevron-left {
+  left: 0;
+}
+.flechitas.fa-chevron-right {
+  position: absolute;
+  right: 0;
+  font-size: 40pt;
+  color: white;
+}
+.textos {
+  position: relative;
+  display: block;
+  background-color: #dfe3ee;
+}
+.imagenes {
+  position: relative;
+  background-color: #dfe3ee;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.item1,
+.item3 {
+  background-color: #f0e6e4;
+  width: 30%;
+}
+.item2 {
+  background-color: #dcdfe4;
+  width: 30%;
+}
+.movilesAbajo {
+  width: 200pt;
+  height: 250pt;
+}
+.contenedor2 {
+  background-color: #438c78;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-align: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.escudo {
+  width: 5%;
+  height: auto;
+}
+.textof {
+  display: block;
+}
+.botonf {
+  font-size: medium;
+  background-color: #438c78;
+  color: white;
+  border-radius: 10%;
+  width: fit-content;
+  font-size: 1.2em;
+  padding: 5px 50px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: white;
+}
