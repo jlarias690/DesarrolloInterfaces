@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+#barra {
+  height: 4em;
+  background-color: white;
+}
+#menu {
+  background-color: black;
+  padding-top: 1em;
+  height: 2.5em;
+}
+
+#publi {
+  height: 45em;
+  width: auto;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 90%;
+  background-image: url(https://i05.appmifile.com/144_operator_es/06/11/2023/73d25b036f11a7c3aef9ba20e3e823ce.jpg?f=webp);
+}
+
+#submenu {
+  color: rgb(43, 43, 43);
+  float: inline-start;
+  padding-top: 1em;
+  padding-right: 4em;
+  font-size: 120%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#submenu2 {
+  color: rgb(43, 43, 43);
+  float: inline-end;
+  padding-top: 1em;
+  padding-right: 4em;
+  font-size: 120%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#busqueda {
+  float: inline-end;
+  padding-top: 2em;
+  margin-right: 4em;
+  width: 235px;
+  border: none;
+  opacity: 60%;
+  border-bottom: 1.25px solid #414141;
+  outline: none;
+  font-size: 15px;
+  color: lightgray;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#parrilla {
+  height: 50em;
+  background-color: rgb(238, 227, 213);
+}
+
+#logo {
+  padding-top: 0.75em;
+  padding-left: 15em;
+  padding-right: 4.5em;
+  float: left;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+#lupa {
+  height: 3.75em;
+  float: right;
+}
+
+.fecha {
+  padding-top: 7.5em;
+  padding-left: 4.55em;
+  float: left;
+  font-weight: 500;
+}
+
+.friday {
+  padding-top: 5.2em;
+  padding-left: 3em;
+  float:initial;
+  font-size: 3em;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.dto {
+    padding-top: 0.45em;
+    padding-left: 4.45em;
+    float: left;
+    font-weight: 500;
+}
+
+.compra {
+    padding-left: 8.75em;
+}
+
+.boton {
+    height: 2em;
+    width: 9.5em;
+    float: inline-start;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#publi2 {
+    height: 45em;
+  width: auto;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 80%;
+  background-image: url(https://i05.appmifile.com/261_operator_es/06/11/2023/87970395b7a4b9ccd3f23b77674d2347.jpg?f=webp);
+}
+
+.fecha2 {
+    padding-top: 4.5em;
+    padding-left: 4.55em;
+    float: left;
+    font-weight: 450;
+    color: black;
+}
+
+#movil {
+    padding-top: 13.5em;
+    padding-left: 9em;
+}
+
+.redmi {
+    color: black;
+    display: inline;
+    font-weight: 450;
+    padding-top: 3em;
+    font-size: 3.5em;
+
+}
+
+.redmi2 {
+    display: inline;
+    color: black;
+    font-weight: 350;
+    font-size: 3.5em;
+
+}
+
+#dto2 {
+    float: left;
+    font-weight: 450;
+    color: black;
+}
+
+.boton2 {
+    height: 2em;
+    width: 9.5em;
+    color: white;
+    float: inline-start;
+    font-size: 1.5em;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.947);
+    border-radius: 10px 10px 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.compra2 {
+    padding-top: 3em;
+}
