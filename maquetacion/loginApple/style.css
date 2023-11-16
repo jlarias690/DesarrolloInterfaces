@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor1 {
+  width: 19%;
+}
+.contenedor2 {
+  width: 19%;
+  margin: 1% 0;
+  border: solid 1px;
+}
+
+.contenedor2 > p {
+  margin: 0 7.6%;
+}
+.contenedor2:hover {
+  background-color: rgb(180, 180, 252);
+}
+input#radio1 {
+  /* Separacion de los margenes */
+  margin: 1.5% 1.5%;
+}
+.contenedor3 {
+  width: 19%;
+  border: solid 1px;
+}
+.contenedor3 > p {
+  margin: 0 7.6%;
+}
+input#radio2 {
+  /* Separacion de los margenes */
+  margin: 1.5% 1.5%;
+}
+.contenedor3:hover {
+  background-color: rgb(180, 180, 252);
+}
+.contenedor4 {
+  margin: 1% 0;
+  width: 19.1%;
+}
+
+.contenedor4 > h2 {
+  margin: 3.5% 0;
+  font-size: 100%;
+}
+
+/*para poder modificar el tamñado de un input tipo texto usamos
+width par la longitud y padding para el grosor*/
+.correo {
+  width: 95%;
+  padding: 1%;
+}
+/*El input tipo button actua igual que el anterior*/
+.boton {
+  margin: 4% 0px;
+  width: 98%;
+  padding: 0.5%;
+  background-color: rgb(0, 13, 131);
+  color: white;
+}
+
+.contenedor2 > input {
+  margin: 1.5% 0;
+}
+
+.contendor5 {
+  /* Modificamos el width para modificar lo que ocupa*/
+  width: 20%;
+}
+
+img.Logo {
+  /*Para mover una imagen necesitamos poner la posicion relatiba y usar el left*/
+  width: 4%;
+  /* float: left; */
+  left: -7%;
+  position: relative;
+  margin: 1%;
+}
