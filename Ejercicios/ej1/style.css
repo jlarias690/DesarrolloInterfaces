@@ -1,0 +1,36 @@
+* {
+  margin: 0.1%;
+  padding: 0;
+}
+.contenedor {
+  border-bottom: 3em dashed gray;
+  border-right: 3em solid black;
+  width: 50%;
+  background-color: green;
+  padding: 3% 0;
+}
+
+.contenedor2 {
+  border-top: 3em solid green;
+  border-left: 3em solid black;
+  border-bottom: 3em solid green;
+  width: 75%;
+  background-color: black;
+  padding: 3% 0;
+  margin: 5% 0;
+}
+
+p {
+  color: white;
+}
+.tip1 {
+  font-size: 2em;
+  padding: 1%;
+}
+
+.tip2 {
+  padding: 1%;
+}
+
+.contenedor2 {
+}
