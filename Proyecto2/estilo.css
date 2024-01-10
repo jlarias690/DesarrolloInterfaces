@@ -1,0 +1,43 @@
+img {
+  margin: 0% 8%;
+  vertical-align: middle;
+  border: 0;
+}
+.tamaño {
+  width: 35%;
+}
+h1 {
+  font-size: 2em;
+}
+
+.cart {
+  text-align: right;
+  color: black;
+  margin: 0px 42%;
+}
+
+.cart i {
+  color: black;
+  font-size: 30px;
+}
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.team .teams {
+  padding: 0px 20px 0;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.parrilla {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  padding: 3% 0% 0;
+}
