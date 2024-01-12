@@ -1,7 +1,59 @@
+.header-top {
+  background: #424242 none repeat scroll 0 0;
+  height: 35px;
+  line-height: 35px;
+}
+.header-top .a-right {
+  text-align: right;
+  margin: 0 3.5%;
+}
+.nav.navbar-nav {
+  margin-top: 9%;
+}
+.header-part ul li {
+  font-size: 100%;
+}
 img {
   margin: 0% 8%;
   vertical-align: middle;
   border: 0;
+  width: 20%;
+}
+.fondo {
+  margin: 0% 17% 0px;
+  width: 66%;
+  height: 9em;
+  background-color: #424242;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  color: white;
+  text-align: center;
+}
+.box2 {
+  padding: 0.5% 0% 0px 6%;
+}
+p.cent {
+  font-size: 2.5em;
+}
+.boton {
+  width: 130%;
+  padding: 14%;
+}
+.exitosMomentos h2 {
+  color: #4f4f4f;
+  font-family: "Roboto", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+  margin: 0% 0 1%;
+}
+.exitosMomentos .text p {
+  font-size: 18px;
+  color: #6a6a6a;
+  line-height: 35px;
+  font-weight: 400;
 }
 .tamaño {
   width: 35%;
@@ -40,4 +92,36 @@ h1 {
 
 .col-md-6 {
   padding: 3% 0% 0;
+}
+
+img.imagenslider {
+  width: 100%;
+}
+
+.features h2 {
+  color: #4f4f4f;
+  font-size: 43px;
+  margin: 115px 0;
+  text-align: center;
+  margin: 4%;
+}
+section.slider {
+  margin: 2.5% 0%;
+}
+.header-part {
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: black;
+}
+.header-part li a {
+  color: black;
+}
+.header-part li a:hover {
+  color: rgb(242, 201, 21);
+}
+.slider {
+  position: relative;
+  margin: 1.9% 0;
 }
