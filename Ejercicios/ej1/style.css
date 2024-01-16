@@ -1,36 +1,25 @@
-* {
-  margin: 0.1%;
-  padding: 0;
+#slider-container {
+  width: 999999px;
+  height: 300px; //set to the height you want
+  position: relative;
 }
-.contenedor {
-  border-bottom: 3em dashed gray;
-  border-right: 3em solid black;
-  width: 50%;
-  background-color: green;
-  padding: 3% 0;
+#slider-mask {
+  width: 500px; //set slide width. must be equal to slide width
+  height: 300px;
+  overflow: hidden;
+  position: relative;
 }
-
-.contenedor2 {
-  border-top: 3em solid green;
-  border-left: 3em solid black;
-  border-bottom: 3em solid green;
-  width: 75%;
-  background-color: black;
-  padding: 3% 0;
-  margin: 5% 0;
+.slide {
+  width: 500px;
+  height: 100%;
+  top: 0;
+  position: absolute;
 }
-
-p {
-  color: white;
-}
-.tip1 {
-  font-size: 2em;
-  padding: 1%;
-}
-
-.tip2 {
-  padding: 1%;
-}
-
-.contenedor2 {
+#buttons {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 150px;
+  height: 30px;
+  margin-left: -75px;
 }

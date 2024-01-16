@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
-    <div>
-      <div class="contenedor">
-        <p class="tip1">Tipografias</p>
-        <p class="tip2">Que empiecen los juegos</p>
-      </div>
-      <div class="contenedor2">
-        <p class="tip1">Tipografias</p>
-        <p class="tip2">Que empiecen los juegos</p>
+    <div id="slider-container">
+      <div id="slider-mask">
+        <div class="slide one">slide 1</div>
+        <div class="slide two">slide 2</div>
+        <div class="slide three">slide 3</div>
+        <div id="buttons">
+          <a href="javascript:moveSlides('prev');" id="prev">&lt;Previous</a>
+          |
+          <a href="javascript:moveSlides('next');" id="next">Next&gt;</a>
+        </div>
       </div>
     </div>
   </body>
