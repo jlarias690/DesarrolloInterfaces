@@ -62,10 +62,16 @@ img {
 .fondo {
   width: 100%;
   height: 9em;
-  background-color: #424242;
+
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.hedear-bus {
+  display: flex;
+  width: 100%;
+  background: #424242 none repeat scroll 0 0;
+  justify-content: space-around;
 }
 .box {
   color: white;
