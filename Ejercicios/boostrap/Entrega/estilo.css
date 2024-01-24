@@ -25,20 +25,79 @@ ul.navegacion {
   justify-content: space-around;
   list-style: none;
 }
-ul.lista {
+.lista {
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-.lista > ul > li:hover {
+.lista > li:hover {
   background-color: orange;
-}
-.contenedor2 {
-  margin: 20.5% 0% 0% 0%;
 }
 
 .parrilla {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  display: flex;
+  unicode-bidi: bidi-override;
+  justify-content: flex-end;
+}
+
+label:hover,
+label:hover ~ label {
+  color: gold;
+}
+
+input[type="radio"]:checked ~ label {
+  color: gold;
+}
+.navegacion {
+  margin: 14% 10% 11% 0%;
+}
+
+.sep {
+  margin: 0% 0% 2% 0%;
+}
+
+.cat1 {
+  text-align: center;
+}
+.cat2 {
+  text-align: center;
+}
+.cat3 {
+  text-align: center;
+}
+.cat4 {
+  text-align: center;
+}
+.cat5 {
+  text-align: center;
 }
