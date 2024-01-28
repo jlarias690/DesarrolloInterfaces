@@ -13,7 +13,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.subContenedor {
+.cue {
+  display: none;
+}
+.subContenedor1 {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -29,6 +32,10 @@ body {
   background-color: rgb(87, 87, 202);
   color: white;
   border-radius: 25px;
+  padding: 5%;
+}
+.b1:hover {
+  cursor: pointer;
 }
 .sC2 {
   display: flex;
@@ -37,4 +44,67 @@ body {
   width: 35%;
   text-align: center;
   /*margin: 0 auto;*/
+}
+p.parr {
+  width: 29%;
+}
+.subContenedor2 {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.sC3 {
+  display: flex;
+  flex-direction: column;
+}
+.sC3 > input {
+  margin: 0% 0% 4% 0%;
+  padding: 4%;
+  border-radius: 8px;
+}
+.ssC1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ssC1 {
+  display: flex;
+  justify-content: space-between;
+}
+.ssC1 > p {
+  color: blue;
+}
+.ssC1 > button {
+  background-color: rgb(87, 87, 202);
+  color: white;
+  border-radius: 25px;
+  padding: 3%;
+  margin: 0% 0% 3% 0%;
+}
+.ssC1 > button:hover {
+  cursor: pointer;
+}
+.ssC2 {
+  background-color: rgb(203, 202, 202);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ssC2 > button {
+  border-radius: 11px;
+  padding: 3%;
+  width: 75%;
+  margin: 1%;
+}
+.b2-f {
+  background-color: rgb(76, 76, 212);
+  color: white;
+}
+
+button.b3-g {
+  margin: 0% 0% 10% 0%;
 }
