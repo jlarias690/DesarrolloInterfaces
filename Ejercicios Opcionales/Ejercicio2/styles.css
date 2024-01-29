@@ -1,0 +1,10 @@
+.cab {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+.icon {
+  color: white;
+  font-size: 230%;
+  margin: 1.5%;
+}
