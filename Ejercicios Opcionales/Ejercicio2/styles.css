@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .cab {
   background-color: black;
   display: flex;
@@ -7,4 +11,65 @@
   color: white;
   font-size: 230%;
   margin: 1.5%;
+}
+.con1 {
+  display: flex;
+}
+.carrito {
+  margin: 0 0px 0px 10%;
+}
+.sC1 > h1 {
+  margin: 1% 6% 0% 2%;
+}
+.sC2 {
+  width: 50%;
+  margin: 7.6% 0px 0px 0;
+  font-size: 35px;
+}
+.con2 {
+  border-top: solid 1px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% 0% 2% 0%;
+  position: absolute;
+}
+.sC3 {
+  width: 15%;
+}
+.tit {
+  color: blue;
+  font-size: 21px;
+}
+.con3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  margin-top: 33%;
+}
+.p1 {
+  width: 25%;
+  text-align: center;
+  color: white;
+  background-color: blue;
+}
+.p2 {
+  width: 25%;
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+.p3 {
+  width: 25%;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 184, 184);
+}
+.p4 {
+  width: 25%;
+  text-align: center;
+  color: white;
+  background-color: red;
 }
