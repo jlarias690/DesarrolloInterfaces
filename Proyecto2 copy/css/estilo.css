@@ -312,3 +312,36 @@ p.titulo {
   border-top: 1px solid #434343;
   padding-bottom: 65px;
 }
+
+.cont9 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ccont1 > a > p > i {
+  color: #ce8715;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.ccont1 > h2 {
+  color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.footer_bottom {
+  background: #2a2a2a none repeat scroll 0 0;
+  padding: 35px 0 14px;
+  position: relative;
+}
+.footer_overlay {
+  background: rgba(42, 42, 42, 0.5);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.parrillaFooter {
+  display: flex;
+  flex-wrap: wrap;
+}
