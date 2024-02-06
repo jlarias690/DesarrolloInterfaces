@@ -333,6 +333,15 @@ p.titulo {
   background: #2a2a2a none repeat scroll 0 0;
   padding: 35px 0 14px;
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.socialMedia {
+  color: blue;
+}
+.footer_bottom > p {
+  color: white;
 }
 .footer_overlay {
   background: rgba(42, 42, 42, 0.5);
