@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+.legal {
+  position: fixed;
+  bottom: 0;
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+}
+
+.modalLegal {
+  display: none;
+  position: absolute;
+  top: 30%;
+  background: orange;
+  z-index: 99999;
+  height: auto;
+  width: 50%;
+  left: 22.5%;
+  padding: 2%;
+  font-size: 200%;
+  text-align: justify; /* JAMÁS */
+  text-shadow: 3px 3px 3px green; /* NUNCA SI QUERÉIS APROBAR */
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0.5% 0%;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #aaa;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.item {
+  width: 50%;
+  margin: 5%;
+}
+img {
+  width: 100%;
+}
+.contenedor > section + section {
+  background: #f1f1f1;
+}
+.rejilla {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.elemento {
+  width: calc(88% / 3);
+  margin: 2% auto;
+  text-align: center;
+}
+.elemento img {
+  width: 50%;
+}
+.slide2,
+.slide3 {
+  display: none;
+}
+.controles {
+  position: absolute;
+  top: 30%;
+  z-index: 99999;
+  width: 100%;
+}
+img.izquierda,
+img.derecha {
+  width: 10%;
+}
+img.derecha {
+  right: 0;
+  position: absolute;
+}
+.activa {
+  display: block;
+}
+/* 1024 y 600 */
+@media (max-width: 1024px) {
+  body {
+    padding: 3%;
+  }
+  section .item p:last-child {
+    display: none;
+  }
+  .rejilla {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  section,
+  .rejilla {
+    flex-direction: column;
+  }
+  .item {
+    width: 90%;
+  }
+  .elemento {
+    width: 100%;
+  }
+  .modalLegal {
+    font-size: 140%;
+  }
+}
