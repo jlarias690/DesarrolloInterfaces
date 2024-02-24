@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,43 +13,56 @@
     ></script>
   </head>
   <body>
-    <div class="cont1">
-      <div class="contenedor1">
-        <div>
-          <img src="imgLogin/logo_sin_Fondo_Redimensionado.png" alt="" />
-        </div>
+    <div class="jq1">
+      <div class="cont1">
+        <div class="contenedor1">
+          <div>
+            <img src="imgLogin/logo_sin_Fondo_Redimensionado.png" alt="" />
+          </div>
 
-        <h1>LectuLandia</h1>
-      </div>
-      <div class="contenedor2">
-        <div class="sC2">
-          <div class="ssC4">
-            <h1>Iniciar Sesión</h1>
-            <p>Inicie sesión para acceder a todos los detalles guardados</p>
-            <button class="b2">
-              <i class="fab fa-google"></i>Iniciar sesión
-            </button>
-            <button class="b3">
-              <i class="fab fa-facebook-f"></i>Iniciar sesión
-            </button>
-            <p class="radio">O</p>
-            <input class="in" type="text" id="email" placeholder="Email" />
-            <input
-              class="in"
-              type="text"
-              id="contraseña"
-              placeholder="Contraseña"
-            />
-            <button class="b1">Iniciar sesión</button>
-            <p>
-              <a href="">Olvide mi contraseña</a>
-            </p>
+          <h1>LectuLandia</h1>
+        </div>
+        <div class="contenedor2">
+          <div class="sC2">
+            <div class="ssC4">
+              <h1>Iniciar Sesión</h1>
+              <p>Inicie sesión para acceder a todos los detalles guardados</p>
+              <button class="b2">
+                <i class="fab fa-google"></i>Iniciar sesión
+              </button>
+              <button class="b3">
+                <i class="fab fa-facebook-f"></i>Iniciar sesión
+              </button>
+              <p class="radio">O</p>
+              <input class="in" type="text" id="email" placeholder="Email" />
+              <p class="resultado" id="resultado"></p>
+              <input
+                class="in"
+                type="password"
+                id="pass"
+                placeholder="Contraseña"
+              />
+              <p id="resultado2"></p>
+              <button class="b1" id="b1">Iniciar sesión</button>
+              <p>
+                <a href="">Olvide mi contraseña</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <div class="cont2">
+        <div class="añoPubli">
+          <p>Copyright © 2024 Designed by Jose Luis</p>
+        </div>
+      </div>
     </div>
-    <div class="cont2">
-      <div class="añoPubli"><p>Copyright © 2024 Designed by Jose Luis</p></div>
+    <!-- Pantalla emergente (modal) -->
+    <div id="modal" class="modal oculto">
+      <div class="modal-contenido">
+        <h2>Bienvenido/a</h2>
+        <p id="mensaje-bienvenida"></p>
+      </div>
     </div>
   </body>
   <footer class="politicaCookies">
