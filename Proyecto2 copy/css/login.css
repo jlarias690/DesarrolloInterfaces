@@ -41,9 +41,6 @@ body {
   padding: 1% 12% 1% 11%;
   margin: 1% 0 1% 0;
   background-color: #ffffff;
-  /*background-image: url(../img/icon-google.svg);
-  
-  */
 }
 
 .ssC4 > p > a {
@@ -58,7 +55,8 @@ body {
   padding: 1% 0% 1% 2%;
   width: 30%;
   margin-top: 1%;
-  opacity: 20%;
+  opacity: 75%;
+  color: black;
 }
 .cont1 {
   display: flex;

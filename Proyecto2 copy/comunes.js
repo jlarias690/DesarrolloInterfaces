@@ -72,3 +72,19 @@ $(document).ready(function () {
     }
   });
 });
+
+$(document).ready(function () {
+  $("#botonLista").click(function () {
+    $("#botonParrilla").show();
+    $(".lista").show();
+    $(".parrillaTitulo").hide();
+    $("#botonLista").hide();
+  });
+
+  $("#botonParrilla").click(function () {
+    $("#botonLista").show();
+    $(".parrillaTitulo").show();
+    $(".lista").hide();
+    $("#botonParrilla").hide();
+  });
+});

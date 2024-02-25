@@ -10,10 +10,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gainsboro;
+  background-color: #efefef;
   padding-top: 1%;
   padding-bottom: 1%;
   border-radius: 9px;
+  border: solid 1px;
 }
 .par3 > img {
   width: 85%;
@@ -23,14 +24,15 @@
   margin: 0;
 }
 .parrilla2 > .par4 {
-  margin: 1% 6.7% 0px 0px;
+  margin: 2% 6.7% 0px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gainsboro;
+  background-color: #efefef;
   padding-top: 1%;
   padding-bottom: 1%;
   border-radius: 9px;
+  border: solid 1px;
 }
 .par4 > img {
   width: 85%;
@@ -38,4 +40,87 @@
 }
 .par4 > p {
   margin: 0;
+}
+
+.selector {
+  display: flex;
+  align-items: center;
+  margin-top: 11%;
+  margin-left: 17.2%;
+}
+.selector > i {
+  font-size: 26px;
+}
+.lista {
+  display: flex;
+  margin: 1% 18% 0 17%;
+  flex-direction: column;
+  display: none;
+}
+.lista > .par5 {
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 9px;
+  width: 100%;
+  margin-left: 0.2%;
+  padding-left: 1%;
+  border: solid 1px;
+  margin-bottom: 1%;
+}
+.par5 > img {
+  border-radius: 10px;
+  width: 15%;
+}
+.resumen {
+  position: relative;
+  bottom: 4%;
+  left: 2%;
+  margin-right: 4%;
+}
+p.autor {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-size: 19px;
+}
+
+.precio {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.precio > p {
+  padding-right: 5%;
+  font-size: 30px;
+}
+.precio > button {
+  padding: 1%;
+  border-radius: 10px;
+}
+.par3:hover {
+  transform: scale(1.1);
+}
+.par4:hover {
+  transform: scale(1.1);
+}
+
+.botonParrilla {
+  display: none;
+  cursor: pointer;
+}
+.botonLista {
+  cursor: pointer;
+}
+.par3 > button {
+  margin-top: 3%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.par4 > button {
+  margin-top: 3%;
+  padding: 2%;
+  border-radius: 10px;
 }
