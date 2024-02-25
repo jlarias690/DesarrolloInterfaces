@@ -73,6 +73,7 @@ $(document).ready(function () {
   });
 });
 
+//Cambio de estado de la vista de los libros.
 $(document).ready(function () {
   $("#botonLista").click(function () {
     $("#botonParrilla").show();
@@ -86,5 +87,68 @@ $(document).ready(function () {
     $(".parrillaTitulo").show();
     $(".lista").hide();
     $("#botonParrilla").hide();
+  });
+});
+//Funcionalidad del logo
+$(document).ready(function () {
+  $("#logo").click(function () {
+    window.location.href = "index.html";
+  });
+});
+
+//Modal en el index.html
+
+$(document).ready(function () {
+  // Función para deshabilitar clics en todo el documento excepto en el modal
+  function disableClicksOutsideModal() {
+    $(document).on("click", function (event) {
+      if (
+        !$(event.target).closest(".modal").length &&
+        !$(event.target).is(".modal")
+      ) {
+        event.preventDefault();
+        event.stopPropagation();
+        return false;
+      }
+    });
+  }
+
+  // Función para habilitar clics en todo el documento
+  function enableClicks() {
+    $(document).off("click");
+  }
+
+  // Mostrar el modal al cargar la página
+  $("#myModal").css("display", "block");
+  $("#opaqueBackground").css("display", "block"); // Mostrar el fondo opaco
+  disableClicks(); // Deshabilitar clics en todo el documento
+
+  // Obtener el modal y el botón de cerrar
+  var modal = document.getElementById("myModal");
+  var span = document.getElementsByClassName("close")[0];
+
+  // Cuando el usuario haga clic en <span> (x), cerrar el modal
+  span.onclick = function () {
+    modal.style.display = "none";
+    $("#opaqueBackground").css("display", "none"); // Ocultar el fondo opaco
+    enableClicks(); // Habilitar clics en todo el documento
+  };
+
+  // Cuando el usuario haga clic en cualquier parte fuera del modal, cerrarlo
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+      $("#opaqueBackground").css("display", "none"); // Ocultar el fondo opaco
+      enableClicks(); // Habilitar clics en todo el documento
+    }
+  };
+
+  // Habilitar el botón de aceptar cuando se marque el checkbox
+  $(document).on("change", "#checkbox", function () {
+    if ($(this).is(":checked")) {
+      $("#btnAceptar").prop("disabled", false);
+    } else {
+      $("#btnAceptar").prop("disabled", true);
+    }
   });
 });

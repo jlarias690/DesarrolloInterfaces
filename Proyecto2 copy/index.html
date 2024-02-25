@@ -18,7 +18,21 @@
     ></script>
     <link rel="stylesheet" href="css/estilo.css" />
   </head>
-  
+  <div class="opaque-background" id="opaqueBackground"></div>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <!-- Contenido del modal -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Política de Privacidad</h2>
+      <p>Acepta nuestra política de privacidad para continuar.</p>
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox">He leído y acepto la política de privacidad.</label>
+      <button id="btnAceptar" disabled>Aceptar</button>
+    </div>
+  </div>
+  </div>
     <div class="hed">
     <div class="container">
       <div class="cont1 espaciado33">
@@ -48,7 +62,7 @@
     </div>
     <div class="container marg">
       <div class="cont4 espaciado33 ">
-        <img src="img/logoRedimensionado.png" alt="">
+        <img class="logo" id="logo" src="img/logoRedimensionado.png" alt="">
         <h1 class="nom">LectuLandia</h1>
       </div>
       <div class="cont5 espaciado33">
@@ -221,6 +235,7 @@
             <h3>La Sangre del Padre</h3>
             <p>Michael Williams</p>
           </div>
+          
         </div>
         </div>
     </div>
@@ -312,9 +327,9 @@
         
             <p>Copyright © 2024 Designed by Jose Luis</p>
             <div class="socialMedia">  
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/?locale=es_ES"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa fa-twitter"></i></a>
+            <a href="https://es.linkedin.com/"><i class="fa fa-linkedin"></i></a>
           </div>
       </div>
     </div>

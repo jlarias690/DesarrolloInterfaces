@@ -148,12 +148,13 @@ i.fas.fa-shopping-cart {
 }
 
 .menuDesplegable {
+  z-index: 1;
   display: flex;
-  margin: 0 13% 0 13%;
-  background-color: #424242;
+  border-radius: 9px;
   position: absolute;
   visibility: hidden;
-  z-index: 1;
+  margin: 0 13% 0 13%;
+  background-color: #424242;
 }
 a {
   text-decoration: none;
@@ -383,4 +384,122 @@ p.titulo {
   border-radius: 6px;
   margin-left: 2%;
   padding: 3px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+/*Modal politica de privacidad*/
+
+/* Estilos para el fondo oscuro */
+body.modal-open {
+  overflow: hidden; /* Deshabilitar el desplazamiento de la página */
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con opacidad */
+  z-index: 9999; /* Por encima de todo */
+  display: none; /* Ocultar por defecto */
+}
+
+/* Resto de estilos como antes */
+/* Estilos para el fondo opaco */
+.opaque-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo opaco con opacidad */
+  z-index: 9999; /* Por encima de todo */
+  display: none; /* Ocultar por defecto */
+}
+
+/* Resto de estilos como antes */
+.modal {
+  display: none; /* Ocultar por defecto */
+  position: fixed; /* Fijar posición */
+  z-index: 10000; /* Posición encima de todo */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Habilitar scroll si es necesario */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* Centrar vertical y horizontalmente */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .principal {
+    display: flex;
+    justify-content: center;
+    margin: 0 1% 0 1%;
+  }
+  .principal > img {
+    width: 100%;
+  }
+  .hed {
+    margin-bottom: 17%;
+  }
+
+  .container2 {
+    width: 100%;
+    margin: 0 0% 0 0%;
+  }
+  .header-part {
+    display: flex;
+    list-style: none;
+    color: black;
+  }
+  .header-part li a {
+    font-size: 16px;
+  }
+  .cont7 {
+    margin: -2% 1% 0px 1%;
+  }
+  .parrilla {
+    display: flex;
+    justify-content: center;
+  }
+  .parrilla > .par1 {
+    margin: 0% 8.7% 0px 0px;
+  }
+  .parrilla > .par2 {
+    margin: 9% 8.7% 0px 0px;
+  }
+  .cookies {
+    margin: 0;
+    margin-bottom: 1.5%;
+  }
+  .menuDesplegable {
+    margin: 0 9% 0 8%;
+    border-radius: 9px;
+  }
 }
